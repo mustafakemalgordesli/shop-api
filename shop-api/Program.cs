@@ -6,8 +6,9 @@ using shop_api.Validation;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddDbContext<ShopDbContext>(opt => opt.UseInMemoryDatabase("ShopDB"));
-//builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+//builder.Services.AddDbContext<ShopDbContext>(opt => opt.UseInMemoryDatabase("ShopDB"));
+builder.Services.AddDbContext<ShopDbContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

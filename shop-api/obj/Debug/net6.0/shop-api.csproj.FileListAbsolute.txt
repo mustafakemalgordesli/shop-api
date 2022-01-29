@@ -29,3 +29,6 @@ C:\Users\mkema\source\repos\shop-api\shop-api\obj\Debug\net6.0\ref\shop-api.dll
 C:\Users\mkema\source\repos\shop-api\shop-api\obj\Debug\net6.0\shop-api.pdb
 C:\Users\mkema\source\repos\shop-api\shop-api\obj\Debug\net6.0\shop-api.genruntimeconfig.cache
 C:\Users\mkema\source\repos\shop-api\shop-api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\mkema\source\repos\shop-api\shop-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mkema\source\repos\shop-api\shop-api\bin\Debug\net6.0\Npgsql.dll
+C:\Users\mkema\source\repos\shop-api\shop-api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
